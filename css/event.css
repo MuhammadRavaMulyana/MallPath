@@ -65,17 +65,31 @@ header nav ul li a {
     height: auto;
 }
 
+/* Footer Styles */
 footer {
     background: #333;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+
+footer .footer-content h2 {
+    font-size: 24px;
 }
 
 footer .contact {
@@ -83,5 +97,14 @@ footer .contact {
 }
 
 footer .contact p {
-    margin: 5px 0;
+    margin-bottom: 5px;
+}
+
+footer .contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .contact a:hover {
+    text-decoration: underline;
 }
