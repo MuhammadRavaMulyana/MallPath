@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mall Path - Summarecon Mall</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/sumrec.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <span>MallPath</span>
+        </div>
+        <ul class="navbar-nav">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="visit.html" class="active">Visits</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="login.html">Sign In</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <button class="back-button" onclick="goBack()">←</button>
+        <div class="header-text">
+            <h1>Bekasi</h1>
+            <h2>Summarecon Mall Bekasi</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" id="search" placeholder="Search...">
+            <div id="store-list">
+                <div class="category">
+                    <h3>Kids, Toys & Maternity</h3>
+                    <ul>
+                        <li>ELC - Furniture dan mainan edukasi</li>
+                        <li>Cool Kids - Pakaian Anak-anak</li>
+                        <li>Pigeon - Perlengkapan Bayi dan Aksesoris</li>
+                        <li>Toys City - Mainan Anak-anak</li>
+                        <li>ZOOMOOV</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h3>Food Temptation</h3>
+                    <ul>
+                        <li>Bakso Lapangan Tembak Senayan</li>
+                        <li>Doner Kebab</li>
+                        <li>Hokben Express</li>
+                        <li>Hashi</li>
+                        <li>Ketupat Rusmini</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h3>Sports & Lifestyle</h3>
+                    <ul>
+                        <li>Nike</li>
+                        <li>Puma</li>
+                        <li>Fisik Football</li>
+                        <li>JD Sport</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h3>Health & Beauty</h3>
+                    <ul>
+                        <li>WL Waxing</li>
+                        <li>Herm Glam Nail Boutique</li>
+                        <li>Browlashbar</li>
+                        <li>Century Healthcare</li>
+                        <li>C&F Perfumery</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h3>Electronics, IT, Gadget</h3>
+                    <ul>
+                        <li>Erafone</li>
+                        <li>Ibox</li>
+                        <li>Samsung Store</li>
+                        <li>De Sound</li>
+                        <li>Oppo</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h3>Fashion & Accessories</h3>
+                    <ul>
+                        <li>Frank & Co</li>
+                        <li>Mothercare</li>
+                        <li>The Palace</li>
+                        <li>Watch World</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="map-container">
+            <div class="map-header">
+                <label for="floor-select">Select Floor:</label>
+                <select id="floor-select">
+                    <option value="ground">Ground Floor</option>
+                    <option value="first">First Floor</option>
+                    <option value="second">Second Floor</option>
+                </select>
+            </div>
+            <div id="map">
+                <img src="../aset/ground-floor.png" id="map-image" alt="Mall Map">
+            </div>
+        </div>
+    </div>
+    <script src="../java/sumrec.js"></script>
+    <script>
+        function goBack() {
+            window.location.href = "visit.html";
+        }
+    </script>
+</body>
+</html>
