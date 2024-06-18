@@ -146,7 +146,7 @@ header nav ul li a:hover {
 }
  
 .find-mall {
-    background: url('kompas.jpg') no-repeat center center;
+    background: url('../aset/kompas.jpg') no-repeat center center;
     background-size: cover;
     text-align: center;
     padding: 50px 0;
