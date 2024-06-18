@@ -89,6 +89,11 @@ header nav ul li a:hover {
   background-color: white;
 }
 
+.confirm-button {
+  margin-top: 20px;
+  background-color: white;
+}
+
 .categories {
   display: flex;
   flex-wrap: wrap;
