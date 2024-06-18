@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="../css/sumrec.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-brand">
-            <span>MallPath</span>
+    <header>
+        <div class="container">
+            <h1 class="logo">MallPath</h1>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="visit.html" class="active">Visits</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="login.html">Sign In</a></li>
+                </ul>
+            </nav>
         </div>
-        <ul class="navbar-nav">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="visit.html" class="active">Visits</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="login.html">Sign In</a></li>
-        </ul>
-    </nav>
+    </header>
 
     <div class="header">
         <button class="back-button" onclick="goBack()">←</button>
@@ -106,6 +108,20 @@
             </div>
         </div>
     </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h2>MallPath</h2>
+                <div class="contact">
+                    <p>Contact Us</p>
+                    <p>082182631293</p>
+                    <p><a href="mailto:dimasalulceria37@gmail.com">dimasalulceria37@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="../java/sumrec.js"></script>
     <script>
         function goBack() {
